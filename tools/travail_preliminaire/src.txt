@@ -1,0 +1,60 @@
+>assets
+ >fonts
+ >img (pour import CSS !)
+ db.json (database produits ?)
+
+>components
+ >Accueil
+ AccueilTitle.js
+ AccueilIntro.js
+ AccueilExplain.js
+ AccueilEquipe.js
+ AccueilBoutique.js
+ >Barbier
+ BarbierTitle.js
+ BarbierIntro.js
+ BarbierPresta.js
+ >BarBiere
+ BarBiereTitle.js
+ BarBiereIntro.js
+ BarBiereCartes.js
+ >Boutique
+ BoutiqueIntro.js
+ Produit.js
+Header.js
+Footer.js
+ShoppingCart.js
+
+>pages
+Accueil.js
+Barbier.js
+BarBiere.js
+Boutique.js
+Evenements.js
+Contact.js
+ >cartes
+ Montchat.js
+ Georges.js
+ LaCanute.js
+ Ninkasi.js
+ Softs.js
+ >produits 
+ Baume.js 
+ CremeDouche.js
+ HuileCroissance.js
+ CremeNuit.js
+ CremeRasage.js
+ KitRasage.js
+ >rdv
+ RendezVous.js
+
+>styles
+ >components
+ >pages
+_settings.scss
+index.css
+index.css.map
+index.scss
+
+App.js
+index.js

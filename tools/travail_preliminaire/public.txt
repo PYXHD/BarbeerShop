@@ -1,0 +1,9 @@
+>img (pour importation dans balise <img>)
+favicon.ico
+index.html
+robots.txt
+
+/////////////////////////////////
+
+package-lock.json
+package.json
