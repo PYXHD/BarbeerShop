@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BarbeerShop/static/css/main.4eb311d7.css",
-    "main.js": "/BarbeerShop/static/js/main.f46e58cf.js",
+    "main.js": "/BarbeerShop/static/js/main.81383b1f.js",
     "index.html": "/BarbeerShop/index.html",
     "main.4eb311d7.css.map": "/BarbeerShop/static/css/main.4eb311d7.css.map",
-    "main.f46e58cf.js.map": "/BarbeerShop/static/js/main.f46e58cf.js.map"
+    "main.81383b1f.js.map": "/BarbeerShop/static/js/main.81383b1f.js.map"
   },
   "entrypoints": [
     "static/css/main.4eb311d7.css",
-    "static/js/main.f46e58cf.js"
+    "static/js/main.81383b1f.js"
   ]
 }
