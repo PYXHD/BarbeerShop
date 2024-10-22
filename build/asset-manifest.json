@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BarbeerShop/static/css/main.4eb311d7.css",
+    "main.js": "/BarbeerShop/static/js/main.05aeb12a.js",
+    "index.html": "/BarbeerShop/index.html",
+    "main.4eb311d7.css.map": "/BarbeerShop/static/css/main.4eb311d7.css.map",
+    "main.05aeb12a.js.map": "/BarbeerShop/static/js/main.05aeb12a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eb311d7.css",
+    "static/js/main.05aeb12a.js"
+  ]
+}
