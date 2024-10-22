@@ -5,14 +5,11 @@ const Header = () => {
     return (
         <header>
             <div className='logo'>
-                <NavLink>
+                <NavLink to="/">
                     <img src={`${process.env.PUBLIC_URL}/img/logo.svg`} alt="" />
                 </NavLink>
             </div>
             <ul className='nav'>
-                <NavLink to="/">
-                    <li>Accueil</li>
-                </NavLink>
                 <NavLink to="/barbier">
                     <li>Barbier</li>
                 </NavLink>
