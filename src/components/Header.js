@@ -5,9 +5,9 @@ const Header = () => {
     return (
         <header>
             <div className='logo'>
-                <a href="Accueil">
+                <NavLink>
                     <img src={`${process.env.PUBLIC_URL}/img/logo.svg`} alt="" />
-                </a>
+                </NavLink>
             </div>
             <ul className='nav'>
                 <NavLink to="/">
