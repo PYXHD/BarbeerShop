@@ -6,7 +6,7 @@ const Header = () => {
         <header>
             <div className='logo'>
                 <a href="Accueil">
-                    <img src={`${process.env.PUBLIC_URL}/img/Logo.svg`} alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/img/logo.svg`} alt="" />
                 </a>
             </div>
             <ul className='nav'>
