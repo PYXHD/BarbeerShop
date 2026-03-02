@@ -1,0 +1,62 @@
+{
+  "page": {
+    "title": "Microbrasserie de MontChat",
+    "image": "/img/logo_montchat.jpg"
+  },
+  "beers": [
+    {
+      "name": "Pilsner",
+      "description": "- Bière blonde ; délicate et désaltérante -",
+      "prices": [
+        { "size": "Demi (25cl)", "price": "3.90€" },
+        { "size": "Pinte (50cl)", "price": "7.50€" },
+        { "size": "Pichet (1.5l)", "price": "20.00€" }
+      ]
+    },
+    {
+      "name": "Vienna",
+      "description": "- Bière ambrée ; caramélisée et désaltérante -",
+      "prices": [
+        { "size": "Demi (25cl)", "price": "3.90€" },
+        { "size": "Pinte (50cl)", "price": "7.50€" },
+        { "size": "Pichet (1.5l)", "price": "20.00€" }
+      ]
+    },
+    {
+      "name": "Saison",
+      "description": "- Bière ambrée ; rustique, épicée et fruitée -",
+      "prices": [
+        { "size": "Demi (25cl)", "price": "3.90€" },
+        { "size": "Pinte (50cl)", "price": "7.50€" },
+        { "size": "Pichet (1.5l)", "price": "20.00€" }
+      ]
+    },
+    {
+      "name": "Golden ale Belge",
+      "description": "- Bière brune ; miellée et chaleureuse -",
+      "prices": [
+        { "size": "Demi (25cl)", "price": "3.90€" },
+        { "size": "Pinte (50cl)", "price": "7.50€" },
+        { "size": "Pichet (1.5l)", "price": "20.00€" }
+      ]
+    },
+    {
+      "name": "India Pale Ale",
+      "description": "- Bière brune ; florale, citrique et amère -",
+      "prices": [
+        { "size": "Demi (25cl)", "price": "3.90€" },
+        { "size": "Pinte (50cl)", "price": "7.50€" },
+        { "size": "Pichet (1.5l)", "price": "20.00€" }
+      ]
+    },
+    {
+      "name": "Triple block",
+      "description": "- Bière brune ; liquoreuse et caramélisée -",
+      "prices": [
+        { "size": "Demi (25cl)", "price": "3.90€" },
+        { "size": "Pinte (50cl)", "price": "7.50€" },
+        { "size": "Pichet (1.5l)", "price": "20.00€" }
+      ]
+    }
+  ]
+}

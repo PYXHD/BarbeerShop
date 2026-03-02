@@ -1,0 +1,30 @@
+@use "../tools/variables" as *;
+@use "../tools/mixins" as *;
+
+.form {
+  @include setFlex(column, center, center, 80px);
+
+  &_container {
+    @include setFlex(column, center, center, 40px);
+
+    .inputContainer {
+      @include setFlex(column, center, center, 5px);
+
+      label,
+      input,
+      select {
+        min-width: 300px;
+        text-indent: 0;
+      }
+
+      input,
+      select {
+        outline: 1px solid $brown;
+
+        &:focus {
+          outline: 2px solid $brown;
+        }
+      }
+    }
+  }
+}

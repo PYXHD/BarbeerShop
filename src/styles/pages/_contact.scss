@@ -1,0 +1,121 @@
+@use "../tools/variables" as *;
+@use "../tools/mixins" as *;
+
+.contact {
+  @include setFlex(column, center, center, 20px);
+  background: $brown;
+  padding-bottom: 150px;
+
+  &_intro {
+    @include setFlex(column, space-around, center, 0);
+    min-width: 300px;
+    width: 100%;
+    max-width: 60%;
+    height: calc(100vh - 80px);
+
+    @media screen and (min-width: 1000px) {
+      height: calc(100vh - 100px);
+    }
+
+    &_h1 {
+      @include setFont($fontTitle, 2.2rem, 500);
+      color: $ivory;
+      text-align: center;
+      border: 3px solid $ivory;
+      border-radius: 20px;
+      padding: 10px 50px;
+
+      @media screen and (min-width: 1000px) {
+        font-size: 3.5rem;
+      }
+    }
+    &_logo {
+      min-width: 200px;
+      width: 60%;
+      max-width: 600px;
+    }
+    &_p {
+      @include setFont($fontTexts, 1.5rem, 500);
+      text-align: center;
+      color: $ivory;
+    }
+  }
+
+  &_details {
+    min-width: 300px;
+    width: 100%;
+    max-width: 60%;
+    @include setFlex(column, space-between, center, 80px);
+
+    @media screen and (min-width: 1000px) {
+      @include setFlex(row, space-between, center, 0);
+    }
+
+    &_container {
+      @include setFlex(column, space-between, center, 20px);
+    }
+
+    &_img {
+      height: 50px;
+    }
+
+    &_title {
+      @include setFont($fontTexts, 1.5rem, 700);
+      color: $ivory;
+    }
+  }
+
+  &_map {
+    height: 50vh;
+    width: 100%;
+    background: url(/src/assets/img/googleMap.jpg) center/cover;
+    margin: 40px 0;
+  }
+
+  &_form {
+    min-width: 300px;
+    width: 100%;
+    max-width: 60%;
+    @include setFlex(column, center, center, 40px);
+
+    &_text {
+    }
+  }
+
+  &_form {
+    @include setFlex(column, center, center, 80px);
+
+    &_container {
+      background-color: $ivory;
+      min-width: 300px;
+      width: 60%;
+      max-width: 600px;
+      padding: 20px;
+
+      h2 {
+        @include setFont($fontTexts, 1.8rem, 500);
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      form {
+        @include setFlex(column, center, center, 40px);
+
+        input,
+        textarea {
+          padding: 5px;
+          width: 250px;
+        }
+
+        textarea {
+          height: 200px;
+        }
+      }
+    }
+  }
+
+  .contact-p {
+    @include setFont($fontTexts, 1rem, 500);
+    text-align: center;
+    color: $ivory;
+  }
+}

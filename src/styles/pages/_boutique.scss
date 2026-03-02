@@ -1,0 +1,73 @@
+@use "../tools/variables" as *;
+@use "../tools/mixins" as *;
+
+.boutique {
+  &_intro {
+    background: url(/src/assets/img/boutique_intro.jpg) center/cover;
+
+    h1 {
+      color: $brown;
+      text-shadow: 0 0 5px $ivory, 0 0 10px $ivory;
+    }
+  }
+
+  &_pres {
+    @include setFlex(column, center, flex-start, 40px);
+  }
+
+  &_products {
+    @include setFlex(column, center, center, 40px);
+  }
+
+  &_container {
+    @include setFlex(column, center, center, 120px);
+
+    .product {
+      min-width: 300px;
+      max-width: 450px;
+      @include setFlex(column, center, center, 10px);
+
+      &_img {
+        width: 100%;
+        outline: 3px solid $ivory;
+        cursor: pointer;
+        transition: 0.1s ease;
+
+        &:hover {
+          transform: scale(1.02);
+        }
+      }
+
+      &_name {
+        @include setFlex(column, center, center, 0);
+
+        &_A {
+          @include setFont($fontTitle, 1.5rem, 500);
+        }
+        &_B {
+          @include setFont($fontTitle, 1.2rem, 500);
+          font-style: italic;
+          margin-bottom: 20px;
+        }
+      }
+
+      &_add {
+        @include setFlex(row, center, center, 30px);
+
+        &_price {
+          @include setFont($fontTexts, 1.2rem, 500);
+          color: $ivory;
+        }
+
+        &_btn {
+          cursor: pointer;
+          transition: 0.1s ease;
+
+          &:hover {
+            transform: scale(1.15);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "page": {
+    "title": "Brasserie Georges",
+    "image": "/img/logo_georges.jpg"
+  },
+  "beers": [
+    {
+      "name": "Princess Pale Ale",
+      "description": "- Bière ambrée ; amère et désaltérante -",
+      "prices": [
+        { "size": "Demi (25cl)", "price": "5.50€" },
+        { "size": "Pinte (50cl)", "price": "9.00€" },
+        { "size": "Pichet (1.5l)", "price": "25.00€" }
+      ]
+    },
+    {
+      "name": "More Is Bitter",
+      "description": "- Bière blonde ; sèche et rafraîchissante -",
+      "prices": [
+        { "size": "Demi (25cl)", "price": "5.50€" },
+        { "size": "Pinte (50cl)", "price": "9.00€" },
+        { "size": "Pichet (1.5l)", "price": "25.00€" }
+      ]
+    },
+    {
+      "name": "Munica brune",
+      "description": "- Bière brune ; arômes de chocolat et de café, douce et amère -",
+      "prices": [
+        { "size": "Demi (25cl)", "price": "5.50€" },
+        { "size": "Pinte (50cl)", "price": "9.00€" },
+        { "size": "Pichet (1.5l)", "price": "25.00€" }
+      ]
+    },
+    {
+      "name": "Golden ale Belge",
+      "description": "- Bière brune ; miellée et chaleureuse -",
+      "prices": [
+        { "size": "Demi (25cl)", "price": "3.90€" },
+        { "size": "Pinte (50cl)", "price": "7.50€" },
+        { "size": "Pichet (1.5l)", "price": "20.00€" }
+      ]
+    },
+    {
+      "name": "Silky Weiss",
+      "description": "- Bière blanche, arômes de banane et de vanille, douce et rafraîchissante -",
+      "prices": [
+        { "size": "Demi (25cl)", "price": "5.50€" },
+        { "size": "Pinte (50cl)", "price": "9.00€" },
+        { "size": "Pichet (1.5l)", "price": "25.00€" }
+      ]
+    }
+  ]
+}

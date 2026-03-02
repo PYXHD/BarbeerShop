@@ -1,0 +1,32 @@
+@use "../tools/variables" as *;
+@use "../tools/mixins" as *;
+
+.beer {
+  &_intro {
+    background: url(/src/assets/img/beer_intro.jpg) center/cover;
+  }
+
+  &_pres {
+    @include setFlex(column, center, flex-start, 40px);
+  }
+
+  &_services {
+    @include setFlex(column, center, center, 60px);
+
+    &_container {
+      @include setFlex(row, center, center, 40px);
+      flex-wrap: wrap;
+      max-width: 1000px;
+
+      img {
+        cursor: pointer;
+        width: 300px;
+        padding: 5px;
+
+        &:hover {
+          outline: 5px solid $brass;
+        }
+      }
+    }
+  }
+}

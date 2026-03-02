@@ -1,0 +1,101 @@
+@use "../tools/variables" as *;
+@use "../tools/mixins" as *;
+
+// shared styles sections
+.sharedMain {
+  @include setFlex(column, center, center, 0);
+
+  .sharedIntro {
+    @include setFlex(column, center, center, 40px);
+    width: 100%;
+    height: calc(100vh - 80px);
+
+    @media screen and (min-width: 1000px) {
+      height: calc(100vh - 100px);
+    }
+
+    &_container {
+      min-width: 300px;
+      width: 100%;
+      max-width: 60%;
+      @include setFlex(column, center, center, 40px);
+    }
+  }
+
+  .sharedSectionA,
+  .sharedSectionB {
+    width: 100%;
+    padding: 80px 10px;
+    @include setFlex(row, center, center, 0);
+
+    &_container {
+      min-width: 300px;
+      width: 100%;
+      max-width: 1400px;
+    }
+  }
+  .sharedSectionA {
+    background-color: $ivory;
+    color: $brown;
+  }
+  .sharedSectionB {
+    background-color: $brown;
+    color: $brass;
+  }
+}
+
+// shared styles titles
+.shared-h1 {
+  @include setFont($fontTitle, 2.2rem, 500);
+  color: $ivory;
+  text-align: center;
+  text-shadow: 0 0 5px $brown, 0 0 10px $brown;
+
+  @media screen and (min-width: 1000px) {
+    font-size: 3.5rem;
+  }
+}
+.shared-h2 {
+  @include setFont($fontTitle, 1.5rem, 500);
+  text-align: center;
+
+  @media screen and (min-width: 1000px) {
+    font-size: 2rem;
+  }
+}
+
+// shared styles paragraphs
+.textA,
+.textB,
+.textC {
+  @include setFont($fontTexts, 1rem, 500);
+  text-indent: 2rem;
+  text-align: justify;
+}
+.textA {
+  color: $brown;
+}
+.textB {
+  color: $brass;
+}
+.textC {
+  color: $ivory;
+  text-shadow: 0 0 5px $brown;
+}
+
+//shared styles buttons
+.btnA {
+  cursor: pointer;
+  background-color: $celestialBlue;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  @include setFont($fontTexts, 1.2rem, 700);
+  color: $ivory;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

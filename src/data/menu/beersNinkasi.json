@@ -1,0 +1,101 @@
+{
+  "page": {
+    "title": "Ninkasi, lieux de brassage",
+    "image": "/img/logo_ninkasi.jpg"
+  },
+  "categories": [
+    {
+      "name": "Bières blondes",
+      "beers": [
+        {
+          "name": "Ninkasi blonde",
+          "prices": [{ "size": "Bouteille 33cl", "price": "2.50€" }]
+        },
+        {
+          "name": "Ninkasi flower lager",
+          "prices": [{ "size": "Bouteille 33cl", "price": "3.30€" }]
+        },
+        {
+          "name": "Ninkasi summer ale",
+          "prices": [{ "size": "Bouteille 33cl", "price": "3.30€" }]
+        }
+      ]
+    },
+    {
+      "name": "Bières blanches",
+      "beers": [
+        {
+          "name": "Ninkasi blanche",
+          "prices": [{ "size": "Bouteille 33cl", "price": "2.50€" }]
+        },
+        {
+          "name": "Ninkasi hefeweizen",
+          "prices": [{ "size": "Bouteille 33cl", "price": "3.80€" }]
+        },
+        {
+          "name": "Ninkasi flower blanche",
+          "prices": [{ "size": "Bouteille 33cl", "price": "3.80€" }]
+        },
+        {
+          "name": "Ninkasi de printemps",
+          "prices": [{ "size": "Bouteille 33cl", "price": "4.20€" }]
+        }
+      ]
+    },
+    {
+      "name": "Bières aux fruits",
+      "beers": [
+        {
+          "name": "Ninkasi micro cassis",
+          "prices": [{ "size": "Bouteille 33cl", "price": "2.50€" }]
+        },
+        {
+          "name": "Ninkasi imperial kriek",
+          "prices": [{ "size": "Bouteille 33cl", "price": "3.80€" }]
+        },
+        {
+          "name": "Ninkasi imperial kriek barrel aged",
+          "prices": [{ "size": "Bouteille 33cl", "price": "3.80€" }]
+        }
+      ]
+    },
+    {
+      "name": "Bières ambrées",
+      "beers": [
+        {
+          "name": "Ninkasi smoky ale",
+          "prices": [{ "size": "Bouteille 33cl", "price": "3.80€" }]
+        },
+        {
+          "name": "Ninkasi pale ale",
+          "prices": [{ "size": "Bouteille 33cl", "price": "3.80€" }]
+        },
+        {
+          "name": "Ninkasi micro pale",
+          "prices": [{ "size": "Bouteille 33cl", "price": "3.80€" }]
+        },
+        {
+          "name": "Ninkasi oktoberfest",
+          "prices": [{ "size": "Bouteille 33cl", "price": "3.80€" }]
+        }
+      ]
+    },
+    {
+      "name": "Bières belges",
+      "beers": [
+        {
+          "name": "Ninkasi triple",
+          "prices": [{ "size": "Bouteille 33cl", "price": "2.90€" }]
+        },
+        {
+          "name": "Ninkasi quadruple",
+          "prices": [{ "size": "Bouteille 33cl", "price": "3.50€" }]
+        },
+        {
+          "name": "Ninkasi de Noël",
+          "prices": [{ "size": "Bouteille 33cl", "price": "4.50€" }]
+        }
+      ]
+    }
+  ]
+}

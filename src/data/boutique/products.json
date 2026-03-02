@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "link": "/boutique/baume_2_en_1",
+      "name": "Baume 2 en 1",
+      "subtitle": "Visage et barbe",
+      "image": "/img/boutique_baume.jpg",
+      "price": ["30ml - 12.90€", "80ml - 24.90€"],
+      "description": [
+        "Découvrez notre Baume 2 en 1 pour visage et barbe, l'allié ultime des hommes soucieux de leur apparence et de leur style.",
+        "Spécialement conçu pour répondre aux besoins uniques de votre peau et de votre barbe, ce baume polyvalent offre une solution complète en un seul produit pratique",
+        "Pour votre visage, notre baume assure :",
+        "💧 Une hydratation profonde : nourrissant votre peau en profondeur, il la laisse douce, lisse et hydratée toute la journée.",
+        "🛡️ Une protection au quotidien : ses agents protecteurs préviennent les agressions environnementales, laissant votre peau résistante et revitalisée.",
+        "🧖‍♂️ Un apaisement instantané : chaque application procure une sensation apaisante et un confort immédiat.",
+        "Pour votre barbe, il garantit :",
+        "🧔 Maîtrise et discipline : sa formule légère dompte les poils indisciplinés, offrant à votre barbe une apparence soignée et élégante.",
+        "✨ Une brillance naturelle : obtenez une barbe d'apparence saine avec une touche subtile de brillance, ajoutant une dimension attrayante à votre look.",
+        "🌿 Nourrit et adoucit : les ingrédients spécialement choisis nourrissent vos poils de barbe, les rendant doux au toucher et agréablement parfumés.",
+        "Simplicité et efficacité sont à portée de main avec notre Baume 2 en 1 pour visage et barbe. Intégrez-le dans votre routine quotidienne pour un soin complet qui reflète votre style et votre confiance.",
+        "Redécouvrez une peau revitalisée et une barbe magnifiquement entretenue, le tout avec un seul produit pratique."
+      ],
+      "ingredients": "aqua, caprix triglyceride, coco-caprylate, glycerin, sodium acrylate, allantoin, aloe barbadensis leaf extract, mentha piperita oil, isohexadecane, parfum, polysorbate 80, chlorphensin, sorbitan oleate, potassium sorbate, limonene, benzyl."
+    },
+    {
+      "id": 2,
+      "link": "/boutique/creme_de_douche",
+      "name": "Crème de douche",
+      "subtitle": "Amla et gingembre",
+      "image": "/img/boutique_douche.jpg",
+      "price": ["500ml - 15.90€"],
+      "description": [
+        "Plongez dans une douche revitalisante avec notre Crème de douche à l'alma & gingembre. Cette formule spécialement conçue combine les bienfaits tonifiants de l'alma et les propriétés revigorantes du gingembre pour vous offrir une expérience de douche unique.",
+        "🌿 Alma Nourrissante : l'alma, riche en nutriments essentiels, hydrate votre peau en profondeur, la laissant douce et souple.",
+        "🌶️ Gingembre Stimulant : l'essence énergisante du gingembre réveille vos sens, vous préparant pour une journée pleine d'énergie.",
+        "🛁 Douche Revitalisante : laissez l'arôme frais et vivifiant de notre crème de douche vous revitaliser, transformant votre douche en un rituel revigorant.",
+        "🧖‍♂️ Soin Ayurvédique : inspirée par l'Ayurveda, notre formule équilibre les propriétés naturelles de l'alma et du gingembre pour une expérience bien-être.",
+        "Laissez-vous transporter par la magie de l'Inde chaque fois que vous vous douchez avec notre Crème de douche.",
+        "Ressentez la puissance de la nature et de l'Ayurveda revitalisant votre peau et éveillant vos sens, pour une journée qui démarre en beauté et en vitalité."
+      ],
+      "ingredients": "aqua, coco-betaine, glycerin, polyglyceryl-4 caprat, linalool, potassium sorbate, parfum, ginger root extract, sodium chloride, sodium benzoate, salicylic acid, phyllanthus emblica fruit extract, limonene, citric acid."
+    },
+    {
+      "id": 3,
+      "link": "/boutique/huile_de_croissance",
+      "name": "Huile de croissance",
+      "subtitle": "",
+      "image": "/img/boutique_huile.jpg",
+      "price": ["30ml - 29.90€"],
+      "description": [
+        "Découvrez notre Huile de croissance pour barbe, pour une barbe qui incarne la masculinité et la confiance. Notre formule unique fusionne la sagesse ancestrale avec la science moderne pour vous offrir une barbe époustouflante et vigoureuse.",
+        "💪 Force et Vitalité : les ingrédients spécialement sélectionnés renforcent les poils de la barbe, aidant à prévenir la casse et les pointes fourchues.",
+        "🌟 Éclat Naturel : notre huile ajoute une lueur subtile à votre barbe, mettant en valeur sa texture et son caractère unique.",
+        "🕶️ Confiance Redéfinie : faites passer votre style au niveau supérieur avec une barbe qui reflète votre assurance naturelle et votre charisme.",
+        "Transformez votre barbe en un symbole de votre individualité avec notre huile de croissance pour barbe. ",
+        "Laissez la puissance de l'Ayurveda révéler votre véritable potentiel de barbe, pour un look qui ne passe pas inaperçu et une confiance qui vous démarque."
+      ],
+      "ingredients": "ginger oil (10%), olive oil (15%), palm oil (18%), propylene glycol (20%) , silicone oil (5%), liquid paraffin (31,5%), phoenoxyethanol (0,5%)."
+    },
+    {
+      "id": 4,
+      "link": "/boutique/creme_de_nuit",
+      "name": "Crème de nuit",
+      "subtitle": "Triple action",
+      "image": "/img/boutique_cremeNuit.jpg",
+      "price": ["40ml - 14.90€"],
+      "description": [
+        "Découvrez notre Crème de nuit Triple action : hydratation profonde, réparation intense et lutte contre les signes de l'âge, le tout en un seul produit.",
+        "💧 Hydratation intense : réveillez-vous avec une peau nourrie, douce et revitalisée chaque matin.",
+        "🔧 Réparation nocturne : aide à restaurer et à revitaliser votre peau pendant la nuit, réduisant les effets des agressions environnementales.",
+        "⏳ Anti-âge avancé : atténue rides et ridules, améliore la fermeté et laisse votre peau visiblement plus jeune.",
+        "Offrez-vous une expérience de soin exceptionnelle chaque nuit, pour une peau radieuse et rajeunie."
+      ],
+      "ingredients": "aqua,dimethicone, jojoba seed oil, hydrogenated castor oil dimer dilinoleate, alcohol denat., glycerin, isononyl isononanoate, propylene glycol, cetyl alcohol, cetyl hydroxyethylcellulose, centella asiatica extract, acetyl dipeptide-1 cetyl ester, capryloyl salicylic acid, sodium citrat, sodium hyaluronate, caprylyl glycol, hydrated silica, hydroxyethylcellulose, pentylene glycol, xanthan gum, benzyl alcohol, limonene, linalool, phenoxyethanol, parfum."
+    },
+    {
+      "id": 5,
+      "link": "/boutique/creme_de_rasage",
+      "name": "Crème de rasage",
+      "s(ubtitle": "En cadeau, un anti-cernes",
+      "image": "/img/boutique_cremeRasage.jpg",
+      "price": ["12.90€"],
+      "description": [
+        "Découvrez notre Crème de rasage, conçue pour les hommes pour qui le rasage est bien plus qu'une routine. ",
+        "Notre formule exceptionnelle redéfinit votre expérience de rasage, vous offrant une peau lisse et impeccable, sans compromis.",
+        "🪒 Précision expert : notre crème de rasage offre une glisse parfaite, permettant au rasoir de suivre chaque contour avec précision pour un résultat net et sans irritation.",
+        "💧 Hydratation supérieure : infusée d'agents hydratants avancés, notre formule prépare votre peau en l'hydratant en profondeur, laissant une sensation de douceur et de confort.",
+        "🌿 Apaisement instantané : les extraits apaisants apportent un soulagement immédiat, minimisant les sensations de tiraillement et de rougeurs pour une peau apaisée après le rasage.",
+        "🕶️ Élégance raffinée : rehaussez votre rituel de rasage avec l'arôme subtil et sophistiqué de notre crème, pour une expérience sensorielle qui reflète votre élégance.",
+        "🧔 Rasage sans effort : avec notre crème, le rasage devient un plaisir. Une application aisée et une efficacité exceptionnelle vous permettent de réaliser un rasage parfait en toute simplicité.",
+        "Élevez votre routine de rasage à de nouveaux sommets de raffinement. Pour les hommes exigeants qui recherchent une expérience de rasage supérieure, notre crème est le choix ultime pour une peau lisse et une confiance qui se démarque."
+      ],
+      "ingredients": "aqua, palmitic acid, stearic acid, sorbitol, cetearyl ethylhexanoate, glycerin, aloe barbadensis leaf juice, menthol, lactic acid, potassium sorbate, sodium benzoate, ethylhexylglycerin, phenoxyethanol, parfum, limonene."
+    },
+    {
+      "id": 6,
+      "link": "/boutique/kit_de_rasage",
+      "name": "Kit de rasage",
+      "subtitle": "Crème de rasage, blaireau et rasoir",
+      "image": "/img/boutique_kit.jpg",
+      "price": ["49.90€"],
+      "description": [
+        "Découvrez l'art du rasage avec notre Kit complet. Le rasage devient une expérience raffinée grâce à notre rasoir à main de précision, notre crème de rasage et notre blaireau expert.",
+        "Obtenez un rasage impeccable, une peau nourrie et une élégance intemporelle en un seul ensemble. Maîtrisez votre style avec ce kit incontournable."
+      ]
+    }
+  ]
+}

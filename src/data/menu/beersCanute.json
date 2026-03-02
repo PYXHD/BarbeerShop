@@ -1,0 +1,63 @@
+{
+  "page": {
+    "title": "La Canute lyonnaise",
+    "image": "/img/logo_canute.jpg"
+  },
+  "beers": [
+    {
+      "name": "La Tête d'Or",
+      "description": "- Bière blonde ; légèrement amère et fruitée -",
+      "prices": [{ "size": "Bouteille 33cl", "price": "7.00€" }]
+    },
+    {
+      "name": "La Confluence",
+      "description": "- Bière blonde ; légèrement amère, fruitée et épicée -",
+      "prices": [{ "size": "Bouteille 33cl", "price": "7.00€" }]
+    },
+    {
+      "name": "La X rousse",
+      "description": "- Bière ambrée ; caramélisée, fruitée et fleurie -",
+      "prices": [{ "size": "Bouteille 33cl", "price": "7.00€" }]
+    },
+    {
+      "name": "La Vieux Lyon",
+      "description": "- Bière brune ; arômes de chocolat, de café et de réglisse -",
+      "prices": [{ "size": "Bouteille 33cl", "price": "7.50€" }]
+    },
+    {
+      "name": "La Grange Blanche",
+      "description": "- Bière blanche ; troublée et acide -",
+      "prices": [{ "size": "Bouteille 33cl", "price": "7.50€" }]
+    },
+    {
+      "name": "La Monplaisir",
+      "description": "- Bière blanche ; troublée et acide, avec une touche de gingembre -",
+      "prices": [{ "size": "Bouteille 33cl", "price": "7.50€" }]
+    },
+    {
+      "name": "La Guillotière",
+      "description": "- Bière brune ; caramélisée, fruitée et fleurie -",
+      "prices": [{ "size": "Bouteille 33cl", "price": "7.90€" }]
+    },
+    {
+      "name": "La Lumières de la ville",
+      "description": "- Bière ambrée ; arômes de chataîgne, noix, caramel et fruits rouges -",
+      "prices": [{ "size": "Bouteille 33cl", "price": "7.90€" }]
+    },
+    {
+      "name": "La Fosse aux ours",
+      "description": "- Bière noire ; arômes framboise, café grillé et cacao -",
+      "prices": [{ "size": "Bouteille 33cl", "price": "8.50€" }]
+    },
+    {
+      "name": "La Gorge de loup",
+      "description": "- Bière noire ; arômes de chocolat et de café -",
+      "prices": [{ "size": "Bouteille 33cl", "price": "8.50€" }]
+    },
+    {
+      "name": "La Gratte-Ciel",
+      "description": "- Bière ambrée ; amère et arômes d'agrumes -",
+      "prices": [{ "size": "Bouteille 33cl", "price": "8.50€" }]
+    }
+  ]
+}

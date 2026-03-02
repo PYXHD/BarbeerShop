@@ -1,0 +1,87 @@
+@use "../tools/variables" as *;
+@use "../tools/mixins" as *;
+
+.header {
+  position: fixed;
+  z-index: 3;
+  height: 80px;
+  width: 100%;
+  @include setFlex(row, center, center, 0);
+  padding: 10px 20px;
+  background-color: $ivory;
+  box-shadow: 0 2px 10px $brown;
+
+  @media screen and (min-width: 1000px) {
+    height: 100px;
+    padding: 20px 40px;
+  }
+
+  &_container {
+    @include setFlex(row, space-between, center, 10px);
+    width: 100%;
+    max-width: 1900px;
+  }
+
+  &_logo {
+    height: 60px;
+  }
+  &_burger {
+    @include setFlex(column, center, center, 7px);
+
+    @media screen and (min-width: 1000px) {
+      display: none;
+    }
+    span {
+      display: block;
+      height: 2px;
+      width: 25px;
+      background-color: $brown;
+    }
+  }
+  &_links {
+    position: fixed;
+    top: 60px;
+    right: -160px;
+    z-index: 2;
+    width: 160px;
+    padding: 20px;
+    flex-wrap: wrap;
+    @include setFlex(column, center, flex-start, 30px);
+    background-color: $ivory;
+    opacity: 0;
+    @include setFont($fontTexts, 1.2rem, 500);
+    text-decoration: none;
+    color: $brown;
+    transition: right 0.5s ease, opacity 0.5s ease;
+
+    @media screen and (min-width: 1000px) {
+      position: static;
+      @include setFlex(row, center, center, 30px);
+      width: auto;
+      flex-wrap: nowrap;
+      opacity: 1;
+    }
+
+    &.open {
+      right: 0;
+      opacity: 1;
+    }
+
+    li {
+      transform: scale();
+      transition: 0.1s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  //Navlinks styles
+  .unactive {
+    text-decoration: none;
+    color: $brown;
+  }
+  .active {
+    color: $brass;
+  }
+}

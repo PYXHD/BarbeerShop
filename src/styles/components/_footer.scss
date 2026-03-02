@@ -1,0 +1,115 @@
+@use "../tools/variables" as *;
+@use "../tools/mixins" as *;
+
+.footer {
+  width: 100%;
+  @include setFlex(column, center, center, 0);
+  text-align: center;
+
+  .socialmedias,
+  .subfooter {
+    width: 100%;
+    padding: 40px 0;
+    @include setFlex(column, center, center, 0);
+
+    &_container {
+      min-width: 300px;
+      width: 100%;
+      max-width: 60%;
+      @include setFlex(column, center, center, 80px);
+    }
+  }
+  .socialmedias {
+    background-color: $brown;
+
+    &_container {
+      gap: 20px;
+    }
+    &_title {
+      @include setFont($fontTitle, 1.5rem, 500);
+      text-transform: uppercase;
+      color: $brass;
+    }
+    &_icons {
+      @include setFlex(row, center, center, 40px);
+
+      img {
+        cursor: pointer;
+        height: 40px;
+        transition: transform 0.1s ease;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+  .subfooter {
+    background-color: $brass;
+
+    .newsletter,
+    .legals {
+      @include setFlex(column, center, center, 10px);
+    }
+
+    .newsletter {
+      label {
+        @include setFont($fontTexts, 0.8rem, 300);
+        margin-bottom: -10px;
+      }
+      input {
+        width: 280px;
+        height: 40px;
+      }
+      button {
+        cursor: pointer;
+        margin-top: 20px;
+        padding: 15px 20px;
+        background-color: $brown;
+        color: $ivory;
+        @include setFont($fontTexts, 1.2rem, 700);
+        text-transform: uppercase;
+        transition: transform 0.1s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+      &_text {
+        @include setFont($fontTexts, 1.2rem, 500);
+      }
+      &_infos {
+        @include setFont($fontTexts, 0.8rem, 500);
+        font-style: italic;
+        color: $brown;
+
+        span {
+          cursor: pointer;
+          color: $celestialBlue;
+
+          &:hover {
+            color: $ivory;
+          }
+        }
+      }
+    }
+
+    .legals {
+      &_options {
+        @include setFont($fontTexts, 1rem, 700);
+        text-transform: uppercase;
+        color: $brown;
+        cursor: pointer;
+
+        &:hover {
+          color: $ivory;
+        }
+      }
+      &_copyright {
+        margin-top: 30px;
+        @include setFont($fontTexts, 1rem, 500);
+        color: $brown;
+      }
+    }
+  }
+}

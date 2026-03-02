@@ -1,0 +1,51 @@
+@use "../tools/variables" as *;
+@use "../tools/mixins" as *;
+
+.productMain {
+  @include setFlex(column, center, center, 20px);
+  background: $brown;
+  padding-bottom: 150px;
+
+  .productIntro {
+    @include setFlex(column, center, center, 20px);
+    padding: 60px 10px 0;
+
+    .productImg {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+
+  .productDescription {
+    @include setFlex(column, center, center, 80px);
+    padding: 0 10px;
+    max-width: 420px;
+
+    .productContainer {
+      @include setFlex(column, none, center, 30px);
+
+      h2 {
+        color: $brass;
+        text-decoration: underline;
+      }
+
+      .product-p {
+        @include setFont($fontTexts, 1rem, 500);
+        align-self: flex-start;
+        text-indent: 2rem;
+        text-align: justify;
+        color: $ivory;
+      }
+    }
+
+    .productPriceContainer {
+      @include setFlex(row, center, center, 80px);
+
+      .productPrice {
+        @include setFlex(column, center, center, 10px);
+        @include setFont($fontTexts, 1rem, 500);
+        color: $ivory;
+      }
+    }
+  }
+}

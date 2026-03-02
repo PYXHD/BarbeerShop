@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  padding-top: 80px;
+
+  @media screen and (min-width: 1000px) {
+    padding-top: 100px;
+  }
+}
+li {
+  list-style: none;
+}

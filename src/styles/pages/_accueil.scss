@@ -1,0 +1,119 @@
+@use "../tools/variables" as *;
+@use "../tools/mixins" as *;
+
+.accueil {
+  &_intro {
+    background: url(/src/assets/img/Accueil-principal.jpg) center/cover;
+  }
+  img {
+    max-width: 850px;
+  }
+
+  &_pres {
+    @include setFlex(column, center, center, 40px);
+
+    @media screen and (min-width: 1000px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    &_firstpart {
+      @include setFlex(column, center, center, 20px);
+    }
+    &_video {
+      aspect-ratio: 16/9;
+      min-width: 300px;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 5px;
+      overflow: hidden;
+      outline: 2px solid $brown;
+    }
+  }
+
+  &_descr {
+    @include setFlex(column, center, center, 200px);
+
+    @media screen and (min-width: 1000px) {
+      flex-direction: row;
+      gap: 100px;
+    }
+
+    &_subcontainer {
+      @include setFlex(column, space-between, center, 30px);
+
+      img {
+        height: auto;
+        width: 120px;
+
+        @media screen and (min-width: 1000px) {
+          height: 200px;
+        }
+      }
+    }
+  }
+
+  &_location {
+    @include setFlex(column, flex-end, center, 0);
+    height: 70vh;
+    width: 100%;
+    padding-bottom: 40px;
+    background: url(/src/assets/img/devanture.jpg) center/cover;
+
+    p {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+
+  &_team {
+    @include setFlex(column, center, center, 60px);
+    color: $brown;
+
+    &_container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+      width: 100%;
+      text-align: center;
+
+      @media screen and (min-width: 500px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media screen and (min-width: 1120px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    &_teammate {
+      @include setFlex(column, center, center, 20px);
+
+      img {
+        width: 100%;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  &_store {
+    @include setFlex(column, center, center, 60px);
+
+    &_container {
+      @include setFlex(column, center, center, 20px);
+
+      p {
+        text-align: center;
+      }
+      img {
+        min-width: 200px;
+        width: 30%;
+      }
+    }
+  }
+}

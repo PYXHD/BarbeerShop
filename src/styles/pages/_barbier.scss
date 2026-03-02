@@ -1,0 +1,38 @@
+@use "../tools/variables" as *;
+@use "../tools/mixins" as *;
+
+.barbier {
+  &_intro {
+    background: url(/src/assets/img/barbier-intro.jpg) center/cover;
+  }
+
+  &_pres {
+    @include setFlex(column, center, flex-start, 40px);
+  }
+
+  &_services {
+    @include setFlex(column, center, center, 60px);
+
+    &_container {
+      @include setFlex(column, center, center, 20px);
+
+      & > * {
+        text-align: center;
+        text-indent: 0;
+
+        i {
+          font-size: 0.8rem;
+        }
+      }
+
+      .categorie {
+        font-size: 1.1rem;
+        text-decoration: underline;
+
+        @media screen and (min-width: 1000px) {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}

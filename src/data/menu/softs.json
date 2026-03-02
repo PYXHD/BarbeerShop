@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "Softs",
+    "image": "/img/logo_sodas.jpg"
+  },
+  "categories": [
+    {
+      "name": "Eaux",
+      "beers": [
+        {
+          "name": "Plate",
+          "prices": [
+            { "size": "Bouteille 25cl", "price": "2.50€" },
+            { "size": "Bouteille 50cl", "price": "3.00€" },
+            { "size": "Bouteille 100cl", "price": "4.00€" }
+          ]
+        },
+        {
+          "name": "Gazeuse",
+          "prices": [
+            { "size": "Bouteille 33cl", "price": "3.00€" },
+            { "size": "Bouteille 50cl", "price": "4.00€" }
+          ]
+        },
+        {
+          "name": "Limonade",
+          "prices": [{ "size": "Bouteille 25cl", "price": "3.00€" }]
+        }
+      ]
+    },
+    {
+      "name": "Sirops",
+      "beers": [
+        {
+          "name": "Cassis, Cerise, Fraise, Framboise, Grenadine, Citron, Pêche",
+          "prices": [{ "size": "25cl", "price": "2.50€" }]
+        }
+      ]
+    },
+    {
+      "name": "Sodas",
+      "beers": [
+        {
+          "prices": [
+            { "size": "Bouteille 33cl", "price": "3.50€" },
+            { "size": "Bouteille 50cl", "price": "4.50€" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jus de fruits",
+      "beers": [
+        {
+          "name": "Abricot, Ananas, Banane, Fraise, Mangue, Orange, Pêche, Poire, Pomme",
+          "prices": [{ "size": "20cl", "price": "3.50€" }]
+        }
+      ]
+    }
+  ]
+}
