@@ -1,5 +1,4 @@
-import React from "react";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Accueil from "./pages/Accueil";
 import Barbier from "./pages/Barbier";
@@ -20,7 +19,7 @@ import Contact from "./pages/Contact";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Accueil />} />
@@ -42,7 +41,7 @@ const App = () => {
 
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
