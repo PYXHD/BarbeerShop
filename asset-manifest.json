@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BarbeerShop/static/css/main.b6ae84bf.css",
-    "main.js": "/BarbeerShop/static/js/main.1f03e65f.js",
+    "main.js": "/BarbeerShop/static/js/main.043c9529.js",
     "reactPlayerYouTube.js": "/BarbeerShop/static/js/reactPlayerYouTube.247829a1.chunk.js",
     "reactPlayerSoundCloud.js": "/BarbeerShop/static/js/reactPlayerSoundCloud.364a9f9a.chunk.js",
     "reactPlayerVimeo.js": "/BarbeerShop/static/js/reactPlayerVimeo.55ff35ff.chunk.js",
@@ -26,7 +26,7 @@
     "static/media/boutique_intro.jpg": "/BarbeerShop/static/media/boutique_intro.d4cf09d585b7055bbf9e.jpg",
     "index.html": "/BarbeerShop/index.html",
     "main.b6ae84bf.css.map": "/BarbeerShop/static/css/main.b6ae84bf.css.map",
-    "main.1f03e65f.js.map": "/BarbeerShop/static/js/main.1f03e65f.js.map",
+    "main.043c9529.js.map": "/BarbeerShop/static/js/main.043c9529.js.map",
     "reactPlayerYouTube.247829a1.chunk.js.map": "/BarbeerShop/static/js/reactPlayerYouTube.247829a1.chunk.js.map",
     "reactPlayerSoundCloud.364a9f9a.chunk.js.map": "/BarbeerShop/static/js/reactPlayerSoundCloud.364a9f9a.chunk.js.map",
     "reactPlayerVimeo.55ff35ff.chunk.js.map": "/BarbeerShop/static/js/reactPlayerVimeo.55ff35ff.chunk.js.map",
@@ -44,6 +44,6 @@
   },
   "entrypoints": [
     "static/css/main.b6ae84bf.css",
-    "static/js/main.1f03e65f.js"
+    "static/js/main.043c9529.js"
   ]
 }
