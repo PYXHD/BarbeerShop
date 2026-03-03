@@ -1,4 +1,4 @@
-# 💈 BarbeerShop
+# BarbeerShop
 
 Site vitrine fictif développé dans le cadre d’un projet de webdesign, puis repris en React afin d’explorer le développement front-end moderne.
 
